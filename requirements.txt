@@ -4,3 +4,5 @@ nltk
 numpy
 json
 streamlit_chat
+pickle
+random
