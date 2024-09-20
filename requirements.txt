@@ -1,6 +1,6 @@
 streamlit
 tensorflow
-nltk
 numpy
 streamlit_chat
-
+nltk
+-e .
