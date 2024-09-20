@@ -1,0 +1,6 @@
+streamlit
+tensorflow
+nltk
+numpy
+json
+streamlit_chat
