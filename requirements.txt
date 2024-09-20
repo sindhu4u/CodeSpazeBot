@@ -3,4 +3,4 @@ tensorflow
 numpy
 streamlit_chat
 nltk
--e .
+
