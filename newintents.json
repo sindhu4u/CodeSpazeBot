@@ -1,0 +1,195 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+        "responses": ["Hello!", "Good to see you again", "Hi there, how can I assist?"],
+        "context": [""]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting with you, bye", "Till next time"],
+        "responses": ["See you!", "Have a great day!", "Bye! Feel free to return anytime."],
+        "context": [""]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+        "responses": ["My pleasure!", "You're welcome.", "Glad I could help!"],
+        "context": [""]
+      },
+      {
+        "tag": "codespaze_internships",
+        "patterns": [
+          "What internships do you offer?",
+          "Are there any internship opportunities available?",
+          "Do you have internships for students?",
+          "What kind of internships do you provide?",
+          "What are the internship programs at CodeSpaze?"
+        ],
+        "responses": ["CodeSpaze offers internships in various tech fields. For specific details on requirements, please visit our website or contact our HR department."],
+        "context": [""]
+      },
+      {
+        "tag": "codespaze_internship_application",
+        "patterns": [
+          "How do I apply for an internship?",
+          "What is the application process for internships?",
+          "How can I submit my application for an internship?",
+          "When is the deadline for internship applications?"
+        ],
+        "responses": ["The application process involves submitting your resume, portfolio, and completing an online application. Please visit our website for more details. Internship start dates vary depending on the program. Please check our website or contact our HR department for the latest information."],
+        "context": [""]
+      },
+      {
+        "tag": "codespaze_internship_duration",
+        "patterns": [
+          "What is the duration of the internships?",
+          "How long are the internships?",
+          "How many months are the internships?"
+        ],
+        "responses": ["Internship durations typically range from one to two months. The exact duration may vary depending on the specific internship."],
+        "context": [""]
+      },
+      {
+        "tag": "codespaze_internship_benefits",
+        "patterns": [
+          "What are the benefits of interning at CodeSpaze?",
+          "What can I gain from an internship at CodeSpaze?",
+          "What are the perks of being an intern at CodeSpaze?"
+        ],
+        "responses": ["Interning at CodeSpaze offers several benefits, including exposure to real-world projects, mentorship from experienced professionals, and opportunities for networking."],
+        "context": [""]
+      },
+      {
+        "tag": "codespaze_internship_pay",
+        "patterns": [
+          "Do you offer paid internships?",
+          "Are the internships paid?",
+          "Is there a stipend for interns?"
+        ],
+        "responses": ["Yes, we offer both paid and unpaid internships. Please check our website or contact our HR department for more information."],
+        "context": [""]
+      },
+      {
+        "tag": "codespaze_internship_location",
+        "patterns": [
+          "Can I intern remotely?",
+          "Is remote internship possible?",
+          "Are there remote internship opportunities?"
+        ],
+        "responses": ["We offer both in-person and remote internships. Please indicate your preference on your application."],
+        "context": [""]
+      },
+      {
+        "tag": "codespaze_internship_projects",
+        "patterns": [
+          "What projects will I work on as an intern?",
+          "What kind of projects do interns work on?",
+          "Can you give me examples of internship projects?"
+        ],
+        "responses": ["As an intern, you will work on real-world projects under the guidance of experienced mentors. The specific projects will vary depending on your skills and interests."],
+        "context": [""]
+      },
+      {
+        "tag": "codespaze_internship_certificate",
+        "patterns": [
+          "Can I get a certificate after completing an internship?",
+          "Will I receive a certificate for completing the internship?"
+        ],
+        "responses": ["Yes, upon successful completion of the internship, you will receive a certificate from CodeSpaze."],
+        "context": [""]
+      },
+      {
+        "tag": "codespaze_programs_offered",
+        "patterns": [
+          "What programs do you offer?",
+          "Are there any programs available?",
+          "What kind of programs do you provide?"
+        ],
+        "responses": ["CodeSpaze offers a variety of programs, including bootcamps, workshops, and certifications. For specific details, please visit our website or contact our admissions team."],
+        "context": [""]
+      },
+      {
+        "tag": "codespaze_programs_requirements",
+        "patterns": [
+          "What are the program requirements?",
+          "Do I need any prerequisites for the programs?",
+          "What are the eligibility criteria for the programs?"
+        ],
+        "responses": ["The prerequisites for our programs vary depending on the specific program. Please check our website or contact our admissions team for more information."],
+        "context": [""]
+      },
+      {
+        "tag": "codespaze_program_application",
+        "patterns": [
+          "How do I apply for a program?",
+          "What is the application process for programs?",
+          "How can I submit my application for a program?"
+        ],
+        "responses": ["The application process involves submitting your resume, portfolio, and completing an online application. Please visit our website for more details."],
+        "context": [""]
+      },
+      {
+        "tag": "codespaze_program_start_dates",
+        "patterns": [
+          "When do programs start?",
+          "What is the upcoming program start date?",
+          "When are the next programs scheduled?"
+        ],
+        "responses": ["Program start dates vary depending on the specific program. Please check our website or contact our admissions team for the latest information."],
+        "context": [""]
+      },
+      {
+        "tag": "codespaze_program_duration",
+        "patterns": [
+          "What is the duration of the programs?",
+          "How long are the programs?",
+          "How many weeks are the programs?"
+        ],
+        "responses": ["Program durations typically range from one to two months. The exact duration may vary depending on the specific program."],
+        "context": [""]
+      },
+      {
+        "tag": "codespaze_program_benefits",
+        "patterns": [
+          "What are the benefits of participating in a program at CodeSpaze?",
+          "What can I gain from a program at CodeSpaze?",
+          "What are the perks of joining a program at CodeSpaze?"
+        ],
+        "responses": ["Participating in a program at CodeSpaze offers several benefits, including gaining in-demand skills, building a strong network, and advancing your career."],
+        "context": [""]
+      },
+      {
+        "tag": "codespaze_program_curriculum",
+        "patterns": [
+          "What is the curriculum like?",
+          "What will I learn in the programs?"
+        ],
+        "responses": ["Our curriculum is designed to be practical and hands-on. You will learn through a combination of tutorials and projects."],
+        "context": [""]
+      },
+      {
+        "tag": "codespaze_program_certificate",
+        "patterns": [
+          "Can I get a certificate after completing a program?",
+          "Will I receive a certificate for completing the program?"
+        ],
+        "responses": ["Yes, upon successful completion of a program, you will receive a certificate from CodeSpaze."],
+        "context": [""]
+      },
+      {
+        "tag": "codespaze_campus",
+        "patterns": [
+          "Where is your campus located?",
+          "Do you have a physical campus?",
+          "Can I visit your campus?",
+          "What are the facilities on your campus?"
+        ],
+        "responses": [
+          "CodeSpaze has a campus located in **Lucknow**, India. You can visit our campus by appointment. We offer various facilities to support our students, including classrooms, labs, library, and common areas."
+        ],
+        "context": [""]
+      }
+    ]
+  }
