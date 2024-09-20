@@ -12,6 +12,7 @@ try:
     nltk.data.find('tokenizers/punkt_tab/english/')
 except LookupError:
     nltk.download('punkt_tab')
+    nltk.download('wordnet')
 
 
 # Load model and data
