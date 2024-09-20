@@ -8,4 +8,4 @@
 - **User-Friendly**: Easy to use and navigate.
 
 
-# Feel free to contribute to the development of CodeSpaze Assistant by submitting pull requests or reporting issues.
+### Feel free to contribute to the development of CodeSpaze Assistant by submitting pull requests or reporting issues.
