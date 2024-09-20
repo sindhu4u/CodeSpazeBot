@@ -8,6 +8,12 @@ from nltk.stem import WordNetLemmatizer
 from keras.models import load_model
 from streamlit_chat import message
 
+try:
+    nltk.data.find('tokenizers/punkt_tab/english/')
+except LookupError:
+    nltk.download('punkt_tab')
+
+
 # Load model and data
 lemmatizer = WordNetLemmatizer()
 intents = json.loads(open('newintents.json').read())
